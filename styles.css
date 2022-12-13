@@ -11,6 +11,8 @@ h1 {
 }
 h3 {
   font-family: var(--second-font-family);
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .hello-title {
@@ -81,12 +83,25 @@ h3 {
   margin: 0 auto;
   cursor: pointer;
 }
+.container-about-section {
+  padding: 160px 20px;
+  margin: 0 26px;
+}
 .about-intro {
-  font-size: 44px;
-  line-height: 1.5;
+  font-family: var(--main-font-family);
+  font-size: 64px;
+  line-height: 80px;
 }
 .about-explanation {
   font-family: var(--second-font-family);
   font-size: 16px;
   line-height: 30px;
+}
+.about-section {
+  padding: 0 30px;
+}
+.about-page-photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

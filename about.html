@@ -32,27 +32,40 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  <style>
+    @media (max-width: 900px) {
+      h1 {
+        font-size: 44px;
+      }
+      .container-about-section {
+        text-align: center;
+      }
+      .about-page-btn {
+        margin-bottom: 40px;
+      }
+    }
+  </style>
   <body>
-    <div class="container">
-      <div class="row mt-50">
-        <div class="col-6">
+    <div class="container-about-section">
+      <div class="row">
+        <div class="col-lg-6 about-section">
           <div class="about-content m-30">
             <h1 class="about-intro mb-24">Hi I am Raheleh Fotouhi</h1>
-            <h3 class="mb-24">Frontend Developer, based in Iran</h3>
+            <h3 class="fw-bold">Frontend Developer, based in Iran</h3>
             <p class="about-explanation mb-48">
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#see my projects" class="btn btn-branding-contact"></a>
+            <a class="btn btn-branding-contact about-page-btn">see my projects</a>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <img
             src="/images/myphoto.png"
             alt="raheleh fotouhi"
-            class="img-fluid"
+            class="img-fluid about-page-photo mt-0"
           />
         </div>
       </div>
