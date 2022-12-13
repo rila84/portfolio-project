@@ -9,6 +9,9 @@ h1 {
   font-size: 96px;
   margin-bottom: 30px;
 }
+h3 {
+  font-family: var(--second-font-family);
+}
 
 .hello-title {
   font-family: var(--second-font-family);
@@ -33,7 +36,7 @@ h1 {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.btn {
+.btn-branding-contact {
   background-color: var(--buttons-background-color);
   color: white;
   padding: 15px 20px;
@@ -50,12 +53,12 @@ h1 {
   font-family: var(--main-font-family);
 }
 .project-section {
-  padding: 20px 60px;
+  padding: 0 60px;
 }
 .col {
   margin-top: 30px;
 }
-.project-description {
+.project {
   margin-top: 20px;
   padding: 60px;
 }
@@ -77,4 +80,13 @@ h1 {
   padding: 13px 25px;
   margin: 0 auto;
   cursor: pointer;
+}
+.about-intro {
+  font-size: 44px;
+  line-height: 1.5;
+}
+.about-explanation {
+  font-family: var(--second-font-family);
+  font-size: 16px;
+  line-height: 30px;
 }
