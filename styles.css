@@ -83,13 +83,17 @@ h3 {
   margin: 0 auto;
   cursor: pointer;
 }
-.container-about-section {
+.content-container {
   padding: 160px 20px;
   margin: 0 26px;
+  color: black;
 }
-.about-intro {
+.about-section {
+  padding: 0 30px;
+}
+.content-title {
   font-family: var(--main-font-family);
-  font-size: 64px;
+  font-size: 60px;
   line-height: 80px;
 }
 .about-explanation {
@@ -97,11 +101,15 @@ h3 {
   font-size: 16px;
   line-height: 30px;
 }
-.about-section {
-  padding: 0 30px;
-}
-.about-page-photo {
+.page-photo {
   max-width: 100%;
   height: auto;
   display: block;
+  margin-bottom: 20px;
+   border-radius: 15px;
+}
+.photo-title {
+  font-size: 25px;
+  line-height: 2;
+ 
 }
