@@ -12,7 +12,6 @@ h1 {
 h3 {
   font-family: var(--second-font-family);
   font-size: 18px;
-  margin-bottom: 30px;
 }
 
 .hello-title {
@@ -84,7 +83,8 @@ h3 {
   cursor: pointer;
 }
 .content-container {
-  padding: 160px 20px;
+  font-family: var(--second-font-family);
+  padding: 160px 80px;
   margin: 0 26px;
   color: black;
 }
@@ -97,19 +97,18 @@ h3 {
   line-height: 80px;
 }
 .about-explanation {
-  font-family: var(--second-font-family);
   font-size: 16px;
   line-height: 30px;
+  margin-top: 30px;
 }
 .page-photo {
   max-width: 100%;
   height: auto;
   display: block;
   margin-bottom: 20px;
-   border-radius: 15px;
+  border-radius: 15px;
 }
-.photo-title {
+.subtitle {
   font-size: 25px;
   line-height: 2;
- 
 }
