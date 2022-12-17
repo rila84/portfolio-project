@@ -13,7 +13,26 @@ h3 {
   font-family: var(--second-font-family);
   font-size: 18px;
 }
-
+ul {
+  padding-top: 30px;
+}
+ul li {
+  font-family: var(--second-font-family);
+  list-style: none;
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
+  color: #272142;
+  margin-left: 10px;
+}
+.logo {
+  max-height: 80px;
+  padding: 20px;
+}
+.active a {
+  color: #6c63ff;
+}
 .hello-title {
   font-family: var(--second-font-family);
   font-weight: bold;
