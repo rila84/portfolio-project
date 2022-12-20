@@ -171,9 +171,13 @@ footer {
   background-color: var(--buttons-background-color);
   color: var(--main-background-color);
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 64px;
+  }
+  h4 {
+    font-size: 30px;
+    padding-top: 45px;
   }
 
   .hello-title,
@@ -190,4 +194,10 @@ footer {
   .project {
     text-align: center;
   }
+  .contact-btn a {
+    font-size: 14px;
+  }
+ .contact-box {
+  padding: 5px 50px;
+}
 }
