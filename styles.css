@@ -40,7 +40,7 @@ footer {
   padding: 20px;
 }
 .active a {
-  color: #6c63ff;
+  color: var(--buttons-background-color);
 }
 .hello-title {
   font-family: var(--second-font-family);
@@ -142,10 +142,52 @@ footer {
 }
 .contact-box {
   background-color: var(--main-background-color);
-  margin: 0 140px 30px 140px;
-  padding: 10px 120px;
+  margin: 0 170px 40px 170px;
+  padding: 5px 120px;
 }
 
 .contact-box .contact-btn {
   margin-bottom: 40px;
+}
+.email-address {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  transition: 100ms ease-in-out;
+}
+.social-networks {
+  margin-top: 50px;
+}
+.social-networks i {
+  margin-left: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  color: var(--buttons-background-color);
+  background-color: var(--main-background-color);
+  font-size: large;
+}
+.social-networks i:hover {
+  background-color: var(--buttons-background-color);
+  color: var(--main-background-color);
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  .hello-title,
+  .project-title {
+    font-size: 40px;
+  }
+  .projects-list {
+    font-size: 12px;
+  }
+  .project-explanation {
+    text-align: center;
+  }
+
+  .project {
+    text-align: center;
+  }
 }

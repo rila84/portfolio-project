@@ -32,27 +32,6 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <style>
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 64px;
-      }
-      .hello-title,
-      .project-title {
-        font-size: 40px;
-      }
-      .projects-list {
-        font-size: 12px;
-      }
-      .project-explanation {
-        text-align: center;
-      }
-
-      .project {
-        text-align: center;
-      }
-    }
-  </style>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
@@ -141,21 +120,37 @@
       </div>
     </div>
     <footer>
-      <div class="contact-box d-flex justify-content-between rounded">
+      <div
+        class="contact-box d-flex justify-content-between rounded d-none d-md-flex"
+      >
         <div class="work-inquiry">
           <h4 class="fw-bold">Work Inquiry</h4>
           <p class="text-muted m-0 project-explanation">let's work together</p>
         </div>
         <div class="contact-btn">
-          <a href="/contact.html" class="btn btn-branding-contact"
+          <a href="/index.html#introduction" class="btn btn-branding-contact"
             >Contact me</a
           >
         </div>
       </div>
-      <div>
-        <a href="mailto:raheleh.fotouhi@gmail.com" target="_blank"
+      <div class="text-center">
+        <a
+          href="mailto:raheleh.fotouhi@gmail.com"
+          class="email-address"
+          target="_blank"
           >raheleh.fotouhi@gmail.com</a
         >
+      </div>
+      <div class="social-networks d-flex justify-content-center">
+        <a href="https://www.github.com/rila" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/rahele.fotouhi" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.twitter.com/rahele" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
       </div>
     </footer>
   </body>
