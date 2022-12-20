@@ -13,12 +13,6 @@ h3 {
   font-family: var(--second-font-family);
   font-size: 18px;
 }
-.work-inquiry h3 {
-  font-family: var(--main-font-family);
-  font-size: 44px;
-  padding-top: 30px;
-}
-
 ul {
   padding-top: 30px;
 }
@@ -47,7 +41,7 @@ footer {
   font-weight: bold;
   font-size: 36px;
   color: #27215c;
-  margin-top: 145px;
+  margin-top: 60px;
 }
 
 .hero {
@@ -156,6 +150,11 @@ footer {
   font-weight: 500;
   transition: 100ms ease-in-out;
 }
+.work-inquiry h3 {
+  font-family: var(--main-font-family);
+  font-size: 44px;
+  padding-top: 30px;
+}
 .social-networks {
   margin-top: 50px;
 }
@@ -171,6 +170,12 @@ footer {
   background-color: var(--buttons-background-color);
   color: var(--main-background-color);
 }
+.open-sourced-link {
+  margin: 40px 0 50px;
+  font-family: var(--second-font-family);
+  font-size: 16px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 64px;
