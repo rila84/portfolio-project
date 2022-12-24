@@ -206,4 +206,11 @@ footer {
   .contact-box {
     padding: 5px 50px;
   }
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
 }
